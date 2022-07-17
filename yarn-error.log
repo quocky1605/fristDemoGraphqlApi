@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/apple/.zsh/misc
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (/usr/local/lib/node_modules/yarn/lib/cli.js:2314:15)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:62428:11
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/usr/local/lib/node_modules/yarn/lib/cli.js:5301:28)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:307:12
+      at realRunCommand (/usr/local/lib/node_modules/yarn/lib/cli.js:62513:23)
+      at action.action (/usr/local/lib/node_modules/yarn/lib/cli.js:62574:16)
+
+npm manifest: 
+  {
+    "name": "restApi",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": ""
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

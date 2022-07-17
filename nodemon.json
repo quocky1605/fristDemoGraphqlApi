@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "kyan500",
+    "MONGO_PASSWORD": "16052001Ky",
+    "MONGO_DEFAULT_DATABASE": "message"
+  }
+}
